@@ -1,0 +1,32 @@
+[groupInfo]
+name = cache_cluster,dev
+
+[cache_cluster]
+host_list = Redis-70,Redis-71,DB-51
+
+[dev]
+host_list = Shell-88
+
+[Redis-70]
+ip = 10.0.0.70
+port = 22
+user = root
+password = 123456
+
+[Redis-71]
+ip = 10.0.0.71
+port = 52113
+user = oldboy
+password = 666666
+
+[DB-51]
+ip = 10.0.0.51
+port = 22
+user = root
+password = 123456
+
+[Shell-88]
+ip = 10.0.0.88
+port = 22
+user = root
+password = 123456
